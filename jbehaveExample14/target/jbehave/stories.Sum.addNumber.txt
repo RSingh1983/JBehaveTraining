@@ -1,0 +1,87 @@
+
+(stories/Sum/addNumber.story)
+Narrative:
+As a user
+I want to add two numbers
+So that I can achieve a business goal
+Scenario: stories.Sum two positive numbers
+Examples:
+Given two numbers as <num1> and <num2>
+When I add the numbers
+Then I validate the sum of numbers as <res>
+
+|num1|num2|res|
+|10|20|30|
+|45|10|55|
+|9|91|100|
+
+Example: {num1=10, num2=20, res=30}
+Given two numbers as <num1> and <num2> (PENDING)
+When I add the numbers (NOT PERFORMED)
+Then I validate the sum of numbers as <res> (PENDING)
+@Given("two numbers as <num1> and <num2>")
+@Pending
+public void givenTwoNumbersAsnum1Andnum2() {
+  // PENDING
+}
+
+@Then("I validate the sum of numbers as <res>")
+@Pending
+public void thenIValidateTheSumOfNumbersAsres() {
+  // PENDING
+}
+
+
+Example: {num1=45, num2=10, res=55}
+Given two numbers as <num1> and <num2> (PENDING)
+When I add the numbers (NOT PERFORMED)
+Then I validate the sum of numbers as <res> (PENDING)
+@Given("two numbers as <num1> and <num2>")
+@Pending
+public void givenTwoNumbersAsnum1Andnum2() {
+  // PENDING
+}
+
+@Then("I validate the sum of numbers as <res>")
+@Pending
+public void thenIValidateTheSumOfNumbersAsres() {
+  // PENDING
+}
+
+
+Example: {num1=9, num2=91, res=100}
+Given two numbers as <num1> and <num2> (PENDING)
+When I add the numbers (NOT PERFORMED)
+Then I validate the sum of numbers as <res> (PENDING)
+@Given("two numbers as <num1> and <num2>")
+@Pending
+public void givenTwoNumbersAsnum1Andnum2() {
+  // PENDING
+}
+
+@Then("I validate the sum of numbers as <res>")
+@Pending
+public void thenIValidateTheSumOfNumbersAsres() {
+  // PENDING
+}
+
+
+
+Scenario: stories.Sum two negative numbers
+Given User is being provided two numbers as -9 and -12 (PENDING)
+When User adds the given numbers (NOT PERFORMED)
+Then I validate the sum of numbers as -21 (PENDING)
+@Given("User is being provided two numbers as -9 and -12")
+@Pending
+public void givenUserIsBeingProvidedTwoNumbersAs9And12() {
+  // PENDING
+}
+
+@Then("I validate the sum of numbers as -21")
+@Pending
+public void thenIValidateTheSumOfNumbersAs21() {
+  // PENDING
+}
+
+
+

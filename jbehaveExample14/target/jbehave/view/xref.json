@@ -1,0 +1,3522 @@
+{"xref": {
+  "stories": [
+    {
+      "story": {
+        "path": "stories/Diff/subtractNumber.story",
+        "description": {
+          "descriptionAsString": ""
+        },
+        "narrative": {
+          "inOrderTo": "",
+          "asA": "user",
+          "iWantTo": "add two numbers",
+          "soThat": "I can achieve a business goal"
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "stories.Sum two numbers",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given two numbers as 10 and 21",
+              "When I subtract the numbers",
+              "Then I validate the diff of numbers as 11"
+            ]
+          }
+        ],
+        "name": "subtractNumber.story"
+      },
+      "localizedNarrative": "As a user\nI want to add two numbers\nSo that I can achieve a business goal",
+      "allowed": true,
+      "status": "PENDING",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "stories.Sum two numbers",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given two numbers as 10 and 21",
+              "When I subtract the numbers",
+              "Then I validate the diff of numbers as 11"
+            ]
+          },
+          "storyPath": "stories/Diff/subtractNumber.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [
+                {
+                  "type": "WHEN",
+                  "annotatedPattern": "I subtract the numbers",
+                  "resolvedPattern": "I\\s+subtract\\s+the\\s+numbers"
+                }
+              ],
+              "results": [
+                {
+                  "step": "Given two numbers as 10 and 21",
+                  "type": "PENDING",
+                  "throwable": {
+                    "@class": "org.jbehave.core.failures.PendingStepFound",
+                    "detailMessage": "Given two numbers as 10 and 21",
+                    "stackTrace": [
+                      "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                      "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                      "org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "e1ddacc5-bb09-42d8-b1ca-1bfb2d144c2c"
+                  },
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                },
+                {
+                  "step": "When I subtract the numbers",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "When I subtract the numbers",
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                },
+                {
+                  "step": "Then I validate the diff of numbers as 11",
+                  "type": "PENDING",
+                  "throwable": {
+                    "@class": "org.jbehave.core.failures.PendingStepFound",
+                    "detailMessage": "Then I validate the diff of numbers as 11",
+                    "stackTrace": [
+                      "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                      "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                      "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
+                      "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "a290b17b-858d-4d28-8e43-67876ab94c63"
+                  },
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "stories.Sum two numbers",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": {
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ]
+                  },
+                  "propertiesAsString": "",
+                  "namedParameters": []
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              },
+              "steps": [
+                "Given two numbers as 10 and 21",
+                "When I subtract the numbers",
+                "Then I validate the diff of numbers as 11"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "PENDING"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 16,
+        "start": 1499845887893,
+        "end": 1499845887909
+      },
+      "givenStory": false
+    },
+    {
+      "story": {
+        "path": "stories/Sum/addNumber.story",
+        "description": {
+          "descriptionAsString": ""
+        },
+        "narrative": {
+          "inOrderTo": "",
+          "asA": "user",
+          "iWantTo": "add two numbers",
+          "soThat": "I can achieve a business goal"
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "stories.Sum two positive numbers",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|num1|num2|res|\n|10  |20  |30|\n|45  |10  |55|\n|9   |91  |100|",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "num1",
+                "num2",
+                "res"
+              ],
+              "data": [
+                [
+                  [
+                    "num1",
+                    "10"
+                  ],
+                  [
+                    "num2",
+                    "20"
+                  ],
+                  [
+                    "res",
+                    "30"
+                  ]
+                ],
+                [
+                  [
+                    "num1",
+                    "45"
+                  ],
+                  [
+                    "num2",
+                    "10"
+                  ],
+                  [
+                    "res",
+                    "55"
+                  ]
+                ],
+                [
+                  [
+                    "num1",
+                    "9"
+                  ],
+                  [
+                    "num2",
+                    "91"
+                  ],
+                  [
+                    "res",
+                    "100"
+                  ]
+                ]
+              ],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given two numbers as <num1> and <num2>",
+              "When I add the numbers",
+              "Then I validate the sum of numbers as <res>"
+            ]
+          },
+          {
+            "title": "stories.Sum two negative numbers",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given User is being provided two numbers as -9 and -12",
+              "When User adds the given numbers",
+              "Then I validate the sum of numbers as -21"
+            ]
+          }
+        ],
+        "name": "addNumber.story"
+      },
+      "localizedNarrative": "As a user\nI want to add two numbers\nSo that I can achieve a business goal",
+      "allowed": true,
+      "status": "PENDING",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "stories.Sum two positive numbers",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|num1|num2|res|\n|10  |20  |30|\n|45  |10  |55|\n|9   |91  |100|",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "num1",
+                "num2",
+                "res"
+              ],
+              "data": [
+                [
+                  [
+                    "num1",
+                    "10"
+                  ],
+                  [
+                    "num2",
+                    "20"
+                  ],
+                  [
+                    "res",
+                    "30"
+                  ]
+                ],
+                [
+                  [
+                    "num1",
+                    "45"
+                  ],
+                  [
+                    "num2",
+                    "10"
+                  ],
+                  [
+                    "res",
+                    "55"
+                  ]
+                ],
+                [
+                  [
+                    "num1",
+                    "9"
+                  ],
+                  [
+                    "num2",
+                    "91"
+                  ],
+                  [
+                    "res",
+                    "100"
+                  ]
+                ]
+              ],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given two numbers as <num1> and <num2>",
+              "When I add the numbers",
+              "Then I validate the sum of numbers as <res>"
+            ]
+          },
+          "storyPath": "stories/Sum/addNumber.story",
+          "allowed": true,
+          "examplePerformableScenarios": [
+            {
+              "parameters": [
+                [
+                  "num1",
+                  "10"
+                ],
+                [
+                  "num2",
+                  "20"
+                ],
+                [
+                  "res",
+                  "30"
+                ]
+              ],
+              "givenStories": [],
+              "beforeSteps": {
+                "matches": []
+              },
+              "steps": {
+                "matches": [
+                  {
+                    "type": "WHEN",
+                    "annotatedPattern": "I add the numbers",
+                    "resolvedPattern": "I\\s+add\\s+the\\s+numbers"
+                  }
+                ],
+                "results": [
+                  {
+                    "step": "Given two numbers as <num1> and <num2>",
+                    "type": "PENDING",
+                    "throwable": {
+                      "@class": "org.jbehave.core.failures.PendingStepFound",
+                      "detailMessage": "Given two numbers as <num1> and <num2>",
+                      "stackTrace": [
+                        "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                        "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                        "org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                        "org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ],
+                      "uuid": "c514ab09-8c28-4337-8001-30bd6295bdcb"
+                    },
+                    "durationInMillis": 0,
+                    "start": 0,
+                    "end": 0
+                  },
+                  {
+                    "step": "When I add the numbers",
+                    "type": "NOT_PERFORMED",
+                    "parametrisedStep": "When I add the numbers",
+                    "durationInMillis": 0,
+                    "start": 0,
+                    "end": 0
+                  },
+                  {
+                    "step": "Then I validate the sum of numbers as <res>",
+                    "type": "PENDING",
+                    "throwable": {
+                      "@class": "org.jbehave.core.failures.PendingStepFound",
+                      "detailMessage": "Then I validate the sum of numbers as <res>",
+                      "stackTrace": [
+                        "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                        "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                        "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
+                        "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                        "org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ],
+                      "uuid": "24331c92-0393-41e3-80cb-205cf33865ff"
+                    },
+                    "durationInMillis": 0,
+                    "start": 0,
+                    "end": 0
+                  }
+                ]
+              },
+              "afterSteps": {
+                "matches": []
+              },
+              "storyAndScenarioMeta": {
+                "properties": []
+              },
+              "scenario": {
+                "title": "stories.Sum two positive numbers",
+                "meta": {
+                  "properties": []
+                },
+                "givenStories": {
+                  "givenStories": [],
+                  "givenStoriesAsString": "",
+                  "examplesTable": {
+                    "tableAsString": "",
+                    "tableTransformers": {
+                      "transformers": [
+                        [
+                          "FORMATTING",
+                          {}
+                        ],
+                        [
+                          "REPLACING",
+                          {}
+                        ],
+                        [
+                          "FROM_LANDSCAPE",
+                          {}
+                        ]
+                      ]
+                    },
+                    "headers": [],
+                    "data": [],
+                    "properties": {
+                      "properties": [
+                        {
+                          "@name": "headerSeparator",
+                          "@value": "|"
+                        },
+                        {
+                          "@name": "valueSeparator",
+                          "@value": "|"
+                        },
+                        {
+                          "@name": "ignorableSeparator",
+                          "@value": "|--"
+                        }
+                      ]
+                    },
+                    "propertiesAsString": "",
+                    "namedParameters": []
+                  }
+                },
+                "examplesTable": {
+                  "tableAsString": "|num1|num2|res|\n|10  |20  |30|\n|45  |10  |55|\n|9   |91  |100|",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [
+                    "num1",
+                    "num2",
+                    "res"
+                  ],
+                  "data": [
+                    [
+                      [
+                        "num1",
+                        "10"
+                      ],
+                      [
+                        "num2",
+                        "20"
+                      ],
+                      [
+                        "res",
+                        "30"
+                      ]
+                    ],
+                    [
+                      [
+                        "num1",
+                        "45"
+                      ],
+                      [
+                        "num2",
+                        "10"
+                      ],
+                      [
+                        "res",
+                        "55"
+                      ]
+                    ],
+                    [
+                      [
+                        "num1",
+                        "9"
+                      ],
+                      [
+                        "num2",
+                        "91"
+                      ],
+                      [
+                        "res",
+                        "100"
+                      ]
+                    ]
+                  ],
+                  "properties": {
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ]
+                  },
+                  "propertiesAsString": "",
+                  "namedParameters": []
+                },
+                "steps": [
+                  "Given two numbers as <num1> and <num2>",
+                  "When I add the numbers",
+                  "Then I validate the sum of numbers as <res>"
+                ]
+              }
+            },
+            {
+              "parameters": [
+                [
+                  "num1",
+                  "45"
+                ],
+                [
+                  "num2",
+                  "10"
+                ],
+                [
+                  "res",
+                  "55"
+                ]
+              ],
+              "givenStories": [],
+              "beforeSteps": {
+                "matches": []
+              },
+              "steps": {
+                "matches": [
+                  {
+                    "type": "WHEN",
+                    "annotatedPattern": "I add the numbers",
+                    "resolvedPattern": "I\\s+add\\s+the\\s+numbers"
+                  }
+                ],
+                "results": [
+                  {
+                    "step": "Given two numbers as <num1> and <num2>",
+                    "type": "PENDING",
+                    "throwable": {
+                      "@class": "org.jbehave.core.failures.PendingStepFound",
+                      "detailMessage": "Given two numbers as <num1> and <num2>",
+                      "stackTrace": [
+                        "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                        "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                        "org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                        "org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ],
+                      "uuid": "7c4af078-60da-4775-9494-f6dd1f4c3ae7"
+                    },
+                    "durationInMillis": 0,
+                    "start": 0,
+                    "end": 0
+                  },
+                  {
+                    "step": "When I add the numbers",
+                    "type": "NOT_PERFORMED",
+                    "parametrisedStep": "When I add the numbers",
+                    "durationInMillis": 0,
+                    "start": 0,
+                    "end": 0
+                  },
+                  {
+                    "step": "Then I validate the sum of numbers as <res>",
+                    "type": "PENDING",
+                    "throwable": {
+                      "@class": "org.jbehave.core.failures.PendingStepFound",
+                      "detailMessage": "Then I validate the sum of numbers as <res>",
+                      "stackTrace": [
+                        "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                        "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                        "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
+                        "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                        "org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ],
+                      "uuid": "ae48fb88-a5cf-47c4-b331-f891c5a9cba4"
+                    },
+                    "durationInMillis": 0,
+                    "start": 0,
+                    "end": 0
+                  }
+                ]
+              },
+              "afterSteps": {
+                "matches": []
+              },
+              "storyAndScenarioMeta": {
+                "properties": []
+              },
+              "scenario": {
+                "title": "stories.Sum two positive numbers",
+                "meta": {
+                  "properties": []
+                },
+                "givenStories": {
+                  "givenStories": [],
+                  "givenStoriesAsString": "",
+                  "examplesTable": {
+                    "tableAsString": "",
+                    "tableTransformers": {
+                      "transformers": [
+                        [
+                          "FORMATTING",
+                          {}
+                        ],
+                        [
+                          "REPLACING",
+                          {}
+                        ],
+                        [
+                          "FROM_LANDSCAPE",
+                          {}
+                        ]
+                      ]
+                    },
+                    "headers": [],
+                    "data": [],
+                    "properties": {
+                      "properties": [
+                        {
+                          "@name": "headerSeparator",
+                          "@value": "|"
+                        },
+                        {
+                          "@name": "valueSeparator",
+                          "@value": "|"
+                        },
+                        {
+                          "@name": "ignorableSeparator",
+                          "@value": "|--"
+                        }
+                      ]
+                    },
+                    "propertiesAsString": "",
+                    "namedParameters": []
+                  }
+                },
+                "examplesTable": {
+                  "tableAsString": "|num1|num2|res|\n|10  |20  |30|\n|45  |10  |55|\n|9   |91  |100|",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [
+                    "num1",
+                    "num2",
+                    "res"
+                  ],
+                  "data": [
+                    [
+                      [
+                        "num1",
+                        "10"
+                      ],
+                      [
+                        "num2",
+                        "20"
+                      ],
+                      [
+                        "res",
+                        "30"
+                      ]
+                    ],
+                    [
+                      [
+                        "num1",
+                        "45"
+                      ],
+                      [
+                        "num2",
+                        "10"
+                      ],
+                      [
+                        "res",
+                        "55"
+                      ]
+                    ],
+                    [
+                      [
+                        "num1",
+                        "9"
+                      ],
+                      [
+                        "num2",
+                        "91"
+                      ],
+                      [
+                        "res",
+                        "100"
+                      ]
+                    ]
+                  ],
+                  "properties": {
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ]
+                  },
+                  "propertiesAsString": "",
+                  "namedParameters": []
+                },
+                "steps": [
+                  "Given two numbers as <num1> and <num2>",
+                  "When I add the numbers",
+                  "Then I validate the sum of numbers as <res>"
+                ]
+              }
+            },
+            {
+              "parameters": [
+                [
+                  "num1",
+                  "9"
+                ],
+                [
+                  "num2",
+                  "91"
+                ],
+                [
+                  "res",
+                  "100"
+                ]
+              ],
+              "givenStories": [],
+              "beforeSteps": {
+                "matches": []
+              },
+              "steps": {
+                "matches": [
+                  {
+                    "type": "WHEN",
+                    "annotatedPattern": "I add the numbers",
+                    "resolvedPattern": "I\\s+add\\s+the\\s+numbers"
+                  }
+                ],
+                "results": [
+                  {
+                    "step": "Given two numbers as <num1> and <num2>",
+                    "type": "PENDING",
+                    "throwable": {
+                      "@class": "org.jbehave.core.failures.PendingStepFound",
+                      "detailMessage": "Given two numbers as <num1> and <num2>",
+                      "stackTrace": [
+                        "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                        "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                        "org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                        "org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ],
+                      "uuid": "2a807996-a6df-4aa4-a69c-13eda5dbfac0"
+                    },
+                    "durationInMillis": 0,
+                    "start": 0,
+                    "end": 0
+                  },
+                  {
+                    "step": "When I add the numbers",
+                    "type": "NOT_PERFORMED",
+                    "parametrisedStep": "When I add the numbers",
+                    "durationInMillis": 0,
+                    "start": 0,
+                    "end": 0
+                  },
+                  {
+                    "step": "Then I validate the sum of numbers as <res>",
+                    "type": "PENDING",
+                    "throwable": {
+                      "@class": "org.jbehave.core.failures.PendingStepFound",
+                      "detailMessage": "Then I validate the sum of numbers as <res>",
+                      "stackTrace": [
+                        "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                        "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                        "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
+                        "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                        "org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ],
+                      "uuid": "34815511-37cf-44c4-a484-e1dc2891f949"
+                    },
+                    "durationInMillis": 0,
+                    "start": 0,
+                    "end": 0
+                  }
+                ]
+              },
+              "afterSteps": {
+                "matches": []
+              },
+              "storyAndScenarioMeta": {
+                "properties": []
+              },
+              "scenario": {
+                "title": "stories.Sum two positive numbers",
+                "meta": {
+                  "properties": []
+                },
+                "givenStories": {
+                  "givenStories": [],
+                  "givenStoriesAsString": "",
+                  "examplesTable": {
+                    "tableAsString": "",
+                    "tableTransformers": {
+                      "transformers": [
+                        [
+                          "FORMATTING",
+                          {}
+                        ],
+                        [
+                          "REPLACING",
+                          {}
+                        ],
+                        [
+                          "FROM_LANDSCAPE",
+                          {}
+                        ]
+                      ]
+                    },
+                    "headers": [],
+                    "data": [],
+                    "properties": {
+                      "properties": [
+                        {
+                          "@name": "headerSeparator",
+                          "@value": "|"
+                        },
+                        {
+                          "@name": "valueSeparator",
+                          "@value": "|"
+                        },
+                        {
+                          "@name": "ignorableSeparator",
+                          "@value": "|--"
+                        }
+                      ]
+                    },
+                    "propertiesAsString": "",
+                    "namedParameters": []
+                  }
+                },
+                "examplesTable": {
+                  "tableAsString": "|num1|num2|res|\n|10  |20  |30|\n|45  |10  |55|\n|9   |91  |100|",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [
+                    "num1",
+                    "num2",
+                    "res"
+                  ],
+                  "data": [
+                    [
+                      [
+                        "num1",
+                        "10"
+                      ],
+                      [
+                        "num2",
+                        "20"
+                      ],
+                      [
+                        "res",
+                        "30"
+                      ]
+                    ],
+                    [
+                      [
+                        "num1",
+                        "45"
+                      ],
+                      [
+                        "num2",
+                        "10"
+                      ],
+                      [
+                        "res",
+                        "55"
+                      ]
+                    ],
+                    [
+                      [
+                        "num1",
+                        "9"
+                      ],
+                      [
+                        "num2",
+                        "91"
+                      ],
+                      [
+                        "res",
+                        "100"
+                      ]
+                    ]
+                  ],
+                  "properties": {
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ]
+                  },
+                  "propertiesAsString": "",
+                  "namedParameters": []
+                },
+                "steps": [
+                  "Given two numbers as <num1> and <num2>",
+                  "When I add the numbers",
+                  "Then I validate the sum of numbers as <res>"
+                ]
+              }
+            }
+          ],
+          "status": "PENDING"
+        },
+        {
+          "scenario": {
+            "title": "stories.Sum two negative numbers",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given User is being provided two numbers as -9 and -12",
+              "When User adds the given numbers",
+              "Then I validate the sum of numbers as -21"
+            ]
+          },
+          "storyPath": "stories/Sum/addNumber.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [
+                {
+                  "type": "WHEN",
+                  "annotatedPattern": "User adds the given numbers",
+                  "resolvedPattern": "User\\s+adds\\s+the\\s+given\\s+numbers"
+                }
+              ],
+              "results": [
+                {
+                  "step": "Given User is being provided two numbers as -9 and -12",
+                  "type": "PENDING",
+                  "throwable": {
+                    "@class": "org.jbehave.core.failures.PendingStepFound",
+                    "detailMessage": "Given User is being provided two numbers as -9 and -12",
+                    "stackTrace": [
+                      "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                      "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                      "org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "66e99f74-bf6c-43dd-9f40-9e3395e6bfa0"
+                  },
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                },
+                {
+                  "step": "When User adds the given numbers",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "When User adds the given numbers",
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                },
+                {
+                  "step": "Then I validate the sum of numbers as -21",
+                  "type": "PENDING",
+                  "throwable": {
+                    "@class": "org.jbehave.core.failures.PendingStepFound",
+                    "detailMessage": "Then I validate the sum of numbers as -21",
+                    "stackTrace": [
+                      "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                      "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                      "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
+                      "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "c0295600-fd00-449e-af29-39432fa57ad0"
+                  },
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "stories.Sum two negative numbers",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": {
+                    "properties": [
+                      {
+                        "@name": "headerSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "valueSeparator",
+                        "@value": "|"
+                      },
+                      {
+                        "@name": "ignorableSeparator",
+                        "@value": "|--"
+                      }
+                    ]
+                  },
+                  "propertiesAsString": "",
+                  "namedParameters": []
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              },
+              "steps": [
+                "Given User is being provided two numbers as -9 and -12",
+                "When User adds the given numbers",
+                "Then I validate the sum of numbers as -21"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "PENDING"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 10,
+        "start": 1499845887950,
+        "end": 1499845887960
+      },
+      "givenStory": false
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": {
+        "title": "stories.Sum two numbers",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": {
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ]
+          },
+          "propertiesAsString": "",
+          "namedParameters": []
+        },
+        "steps": [
+          "Given two numbers as 10 and 21",
+          "When I subtract the numbers",
+          "Then I validate the diff of numbers as 11"
+        ]
+      },
+      "storyPath": "stories/Diff/subtractNumber.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [
+            {
+              "type": "WHEN",
+              "annotatedPattern": "I subtract the numbers",
+              "resolvedPattern": "I\\s+subtract\\s+the\\s+numbers"
+            }
+          ],
+          "results": [
+            {
+              "step": "Given two numbers as 10 and 21",
+              "type": "PENDING",
+              "throwable": {
+                "@class": "org.jbehave.core.failures.PendingStepFound",
+                "detailMessage": "Given two numbers as 10 and 21",
+                "stackTrace": [
+                  "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                  "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                  "org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)",
+                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:745)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "e1ddacc5-bb09-42d8-b1ca-1bfb2d144c2c"
+              },
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            },
+            {
+              "step": "When I subtract the numbers",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "When I subtract the numbers",
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            },
+            {
+              "step": "Then I validate the diff of numbers as 11",
+              "type": "PENDING",
+              "throwable": {
+                "@class": "org.jbehave.core.failures.PendingStepFound",
+                "detailMessage": "Then I validate the diff of numbers as 11",
+                "stackTrace": [
+                  "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                  "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                  "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
+                  "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:745)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "a290b17b-858d-4d28-8e43-67876ab94c63"
+              },
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "stories.Sum two numbers",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          },
+          "steps": [
+            "Given two numbers as 10 and 21",
+            "When I subtract the numbers",
+            "Then I validate the diff of numbers as 11"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "PENDING"
+    },
+    {
+      "scenario": {
+        "title": "stories.Sum two positive numbers",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "|num1|num2|res|\n|10  |20  |30|\n|45  |10  |55|\n|9   |91  |100|",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [
+            "num1",
+            "num2",
+            "res"
+          ],
+          "data": [
+            [
+              [
+                "num1",
+                "10"
+              ],
+              [
+                "num2",
+                "20"
+              ],
+              [
+                "res",
+                "30"
+              ]
+            ],
+            [
+              [
+                "num1",
+                "45"
+              ],
+              [
+                "num2",
+                "10"
+              ],
+              [
+                "res",
+                "55"
+              ]
+            ],
+            [
+              [
+                "num1",
+                "9"
+              ],
+              [
+                "num2",
+                "91"
+              ],
+              [
+                "res",
+                "100"
+              ]
+            ]
+          ],
+          "properties": {
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ]
+          },
+          "propertiesAsString": "",
+          "namedParameters": []
+        },
+        "steps": [
+          "Given two numbers as <num1> and <num2>",
+          "When I add the numbers",
+          "Then I validate the sum of numbers as <res>"
+        ]
+      },
+      "storyPath": "stories/Sum/addNumber.story",
+      "allowed": true,
+      "examplePerformableScenarios": [
+        {
+          "parameters": [
+            [
+              "num1",
+              "10"
+            ],
+            [
+              "num2",
+              "20"
+            ],
+            [
+              "res",
+              "30"
+            ]
+          ],
+          "givenStories": [],
+          "beforeSteps": {
+            "matches": []
+          },
+          "steps": {
+            "matches": [
+              {
+                "type": "WHEN",
+                "annotatedPattern": "I add the numbers",
+                "resolvedPattern": "I\\s+add\\s+the\\s+numbers"
+              }
+            ],
+            "results": [
+              {
+                "step": "Given two numbers as <num1> and <num2>",
+                "type": "PENDING",
+                "throwable": {
+                  "@class": "org.jbehave.core.failures.PendingStepFound",
+                  "detailMessage": "Given two numbers as <num1> and <num2>",
+                  "stackTrace": [
+                    "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                    "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                    "org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                    "org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:745)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ],
+                  "uuid": "c514ab09-8c28-4337-8001-30bd6295bdcb"
+                },
+                "durationInMillis": 0,
+                "start": 0,
+                "end": 0
+              },
+              {
+                "step": "When I add the numbers",
+                "type": "NOT_PERFORMED",
+                "parametrisedStep": "When I add the numbers",
+                "durationInMillis": 0,
+                "start": 0,
+                "end": 0
+              },
+              {
+                "step": "Then I validate the sum of numbers as <res>",
+                "type": "PENDING",
+                "throwable": {
+                  "@class": "org.jbehave.core.failures.PendingStepFound",
+                  "detailMessage": "Then I validate the sum of numbers as <res>",
+                  "stackTrace": [
+                    "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                    "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                    "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
+                    "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                    "org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:745)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ],
+                  "uuid": "24331c92-0393-41e3-80cb-205cf33865ff"
+                },
+                "durationInMillis": 0,
+                "start": 0,
+                "end": 0
+              }
+            ]
+          },
+          "afterSteps": {
+            "matches": []
+          },
+          "storyAndScenarioMeta": {
+            "properties": []
+          },
+          "scenario": {
+            "title": "stories.Sum two positive numbers",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|num1|num2|res|\n|10  |20  |30|\n|45  |10  |55|\n|9   |91  |100|",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "num1",
+                "num2",
+                "res"
+              ],
+              "data": [
+                [
+                  [
+                    "num1",
+                    "10"
+                  ],
+                  [
+                    "num2",
+                    "20"
+                  ],
+                  [
+                    "res",
+                    "30"
+                  ]
+                ],
+                [
+                  [
+                    "num1",
+                    "45"
+                  ],
+                  [
+                    "num2",
+                    "10"
+                  ],
+                  [
+                    "res",
+                    "55"
+                  ]
+                ],
+                [
+                  [
+                    "num1",
+                    "9"
+                  ],
+                  [
+                    "num2",
+                    "91"
+                  ],
+                  [
+                    "res",
+                    "100"
+                  ]
+                ]
+              ],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given two numbers as <num1> and <num2>",
+              "When I add the numbers",
+              "Then I validate the sum of numbers as <res>"
+            ]
+          }
+        },
+        {
+          "parameters": [
+            [
+              "num1",
+              "45"
+            ],
+            [
+              "num2",
+              "10"
+            ],
+            [
+              "res",
+              "55"
+            ]
+          ],
+          "givenStories": [],
+          "beforeSteps": {
+            "matches": []
+          },
+          "steps": {
+            "matches": [
+              {
+                "type": "WHEN",
+                "annotatedPattern": "I add the numbers",
+                "resolvedPattern": "I\\s+add\\s+the\\s+numbers"
+              }
+            ],
+            "results": [
+              {
+                "step": "Given two numbers as <num1> and <num2>",
+                "type": "PENDING",
+                "throwable": {
+                  "@class": "org.jbehave.core.failures.PendingStepFound",
+                  "detailMessage": "Given two numbers as <num1> and <num2>",
+                  "stackTrace": [
+                    "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                    "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                    "org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                    "org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:745)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ],
+                  "uuid": "7c4af078-60da-4775-9494-f6dd1f4c3ae7"
+                },
+                "durationInMillis": 0,
+                "start": 0,
+                "end": 0
+              },
+              {
+                "step": "When I add the numbers",
+                "type": "NOT_PERFORMED",
+                "parametrisedStep": "When I add the numbers",
+                "durationInMillis": 0,
+                "start": 0,
+                "end": 0
+              },
+              {
+                "step": "Then I validate the sum of numbers as <res>",
+                "type": "PENDING",
+                "throwable": {
+                  "@class": "org.jbehave.core.failures.PendingStepFound",
+                  "detailMessage": "Then I validate the sum of numbers as <res>",
+                  "stackTrace": [
+                    "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                    "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                    "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
+                    "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                    "org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:745)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ],
+                  "uuid": "ae48fb88-a5cf-47c4-b331-f891c5a9cba4"
+                },
+                "durationInMillis": 0,
+                "start": 0,
+                "end": 0
+              }
+            ]
+          },
+          "afterSteps": {
+            "matches": []
+          },
+          "storyAndScenarioMeta": {
+            "properties": []
+          },
+          "scenario": {
+            "title": "stories.Sum two positive numbers",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|num1|num2|res|\n|10  |20  |30|\n|45  |10  |55|\n|9   |91  |100|",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "num1",
+                "num2",
+                "res"
+              ],
+              "data": [
+                [
+                  [
+                    "num1",
+                    "10"
+                  ],
+                  [
+                    "num2",
+                    "20"
+                  ],
+                  [
+                    "res",
+                    "30"
+                  ]
+                ],
+                [
+                  [
+                    "num1",
+                    "45"
+                  ],
+                  [
+                    "num2",
+                    "10"
+                  ],
+                  [
+                    "res",
+                    "55"
+                  ]
+                ],
+                [
+                  [
+                    "num1",
+                    "9"
+                  ],
+                  [
+                    "num2",
+                    "91"
+                  ],
+                  [
+                    "res",
+                    "100"
+                  ]
+                ]
+              ],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given two numbers as <num1> and <num2>",
+              "When I add the numbers",
+              "Then I validate the sum of numbers as <res>"
+            ]
+          }
+        },
+        {
+          "parameters": [
+            [
+              "num1",
+              "9"
+            ],
+            [
+              "num2",
+              "91"
+            ],
+            [
+              "res",
+              "100"
+            ]
+          ],
+          "givenStories": [],
+          "beforeSteps": {
+            "matches": []
+          },
+          "steps": {
+            "matches": [
+              {
+                "type": "WHEN",
+                "annotatedPattern": "I add the numbers",
+                "resolvedPattern": "I\\s+add\\s+the\\s+numbers"
+              }
+            ],
+            "results": [
+              {
+                "step": "Given two numbers as <num1> and <num2>",
+                "type": "PENDING",
+                "throwable": {
+                  "@class": "org.jbehave.core.failures.PendingStepFound",
+                  "detailMessage": "Given two numbers as <num1> and <num2>",
+                  "stackTrace": [
+                    "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                    "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                    "org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                    "org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:745)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ],
+                  "uuid": "2a807996-a6df-4aa4-a69c-13eda5dbfac0"
+                },
+                "durationInMillis": 0,
+                "start": 0,
+                "end": 0
+              },
+              {
+                "step": "When I add the numbers",
+                "type": "NOT_PERFORMED",
+                "parametrisedStep": "When I add the numbers",
+                "durationInMillis": 0,
+                "start": 0,
+                "end": 0
+              },
+              {
+                "step": "Then I validate the sum of numbers as <res>",
+                "type": "PENDING",
+                "throwable": {
+                  "@class": "org.jbehave.core.failures.PendingStepFound",
+                  "detailMessage": "Then I validate the sum of numbers as <res>",
+                  "stackTrace": [
+                    "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                    "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                    "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
+                    "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                    "org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:745)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ],
+                  "uuid": "34815511-37cf-44c4-a484-e1dc2891f949"
+                },
+                "durationInMillis": 0,
+                "start": 0,
+                "end": 0
+              }
+            ]
+          },
+          "afterSteps": {
+            "matches": []
+          },
+          "storyAndScenarioMeta": {
+            "properties": []
+          },
+          "scenario": {
+            "title": "stories.Sum two positive numbers",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": {
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ]
+                },
+                "propertiesAsString": "",
+                "namedParameters": []
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "|num1|num2|res|\n|10  |20  |30|\n|45  |10  |55|\n|9   |91  |100|",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [
+                "num1",
+                "num2",
+                "res"
+              ],
+              "data": [
+                [
+                  [
+                    "num1",
+                    "10"
+                  ],
+                  [
+                    "num2",
+                    "20"
+                  ],
+                  [
+                    "res",
+                    "30"
+                  ]
+                ],
+                [
+                  [
+                    "num1",
+                    "45"
+                  ],
+                  [
+                    "num2",
+                    "10"
+                  ],
+                  [
+                    "res",
+                    "55"
+                  ]
+                ],
+                [
+                  [
+                    "num1",
+                    "9"
+                  ],
+                  [
+                    "num2",
+                    "91"
+                  ],
+                  [
+                    "res",
+                    "100"
+                  ]
+                ]
+              ],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            },
+            "steps": [
+              "Given two numbers as <num1> and <num2>",
+              "When I add the numbers",
+              "Then I validate the sum of numbers as <res>"
+            ]
+          }
+        }
+      ],
+      "status": "PENDING"
+    },
+    {
+      "scenario": {
+        "title": "stories.Sum two negative numbers",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": {
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ]
+          },
+          "propertiesAsString": "",
+          "namedParameters": []
+        },
+        "steps": [
+          "Given User is being provided two numbers as -9 and -12",
+          "When User adds the given numbers",
+          "Then I validate the sum of numbers as -21"
+        ]
+      },
+      "storyPath": "stories/Sum/addNumber.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [
+            {
+              "type": "WHEN",
+              "annotatedPattern": "User adds the given numbers",
+              "resolvedPattern": "User\\s+adds\\s+the\\s+given\\s+numbers"
+            }
+          ],
+          "results": [
+            {
+              "step": "Given User is being provided two numbers as -9 and -12",
+              "type": "PENDING",
+              "throwable": {
+                "@class": "org.jbehave.core.failures.PendingStepFound",
+                "detailMessage": "Given User is being provided two numbers as -9 and -12",
+                "stackTrace": [
+                  "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                  "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                  "org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)",
+                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:745)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "66e99f74-bf6c-43dd-9f40-9e3395e6bfa0"
+              },
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            },
+            {
+              "step": "When User adds the given numbers",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "When User adds the given numbers",
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            },
+            {
+              "step": "Then I validate the sum of numbers as -21",
+              "type": "PENDING",
+              "throwable": {
+                "@class": "org.jbehave.core.failures.PendingStepFound",
+                "detailMessage": "Then I validate the sum of numbers as -21",
+                "stackTrace": [
+                  "org.jbehave.core.steps.AbstractStepResult$Pending.<init>(AbstractStepResult.java:58)",
+                  "org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)",
+                  "org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)",
+                  "org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:745)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "c0295600-fd00-449e-af29-39432fa57ad0"
+              },
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "stories.Sum two negative numbers",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": {
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ]
+              },
+              "propertiesAsString": "",
+              "namedParameters": []
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": {
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ]
+            },
+            "propertiesAsString": "",
+            "namedParameters": []
+          },
+          "steps": [
+            "Given User is being provided two numbers as -9 and -12",
+            "When User adds the given numbers",
+            "Then I validate the sum of numbers as -21"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "PENDING"
+    }
+  ]
+}}

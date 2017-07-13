@@ -1,0 +1,3173 @@
+<xref>
+  <stories>
+    <performableStory>
+      <story>
+        <path>stories/Diff/subtractNumber.story</path>
+        <description>
+          <descriptionAsString></descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo></inOrderTo>
+          <asA>user</asA>
+          <iWantTo>add two numbers</iWantTo>
+          <soThat>I can achieve a business goal</soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title>stories.Sum two numbers</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given two numbers as 10 and 21</string>
+              <string>When I subtract the numbers</string>
+              <string>Then I validate the diff of numbers as 11</string>
+            </steps>
+          </scenario>
+        </scenarios>
+        <name>subtractNumber.story</name>
+      </story>
+      <localizedNarrative>As a user
+I want to add two numbers
+So that I can achieve a business goal</localizedNarrative>
+      <allowed>true</allowed>
+      <status>PENDING</status>
+      <givenStories/>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <title>stories.Sum two numbers</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given two numbers as 10 and 21</string>
+              <string>When I subtract the numbers</string>
+              <string>Then I validate the diff of numbers as 11</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/Diff/subtractNumber.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>I subtract the numbers</annotatedPattern>
+                  <resolvedPattern>I\s+subtract\s+the\s+numbers</resolvedPattern>
+                </stepMatch>
+              </matches>
+              <results>
+                <pending>
+                  <step>Given two numbers as 10 and 21</step>
+                  <type>PENDING</type>
+                  <throwable class="org.jbehave.core.failures.PendingStepFound">
+                    <detailMessage>Given two numbers as 10 and 21</detailMessage>
+                    <stackTrace>
+                      <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                      <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                      <trace>org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <uuid>e1ddacc5-bb09-42d8-b1ca-1bfb2d144c2c</uuid>
+                  </throwable>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </pending>
+                <notPerformed>
+                  <step>When I subtract the numbers</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>When I subtract the numbers</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <pending>
+                  <step>Then I validate the diff of numbers as 11</step>
+                  <type>PENDING</type>
+                  <throwable class="org.jbehave.core.failures.PendingStepFound">
+                    <detailMessage>Then I validate the diff of numbers as 11</detailMessage>
+                    <stackTrace>
+                      <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                      <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                      <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <uuid>a290b17b-858d-4d28-8e43-67876ab94c63</uuid>
+                  </throwable>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </pending>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>stories.Sum two numbers</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps>
+                <string>Given two numbers as 10 and 21</string>
+                <string>When I subtract the numbers</string>
+                <string>Then I validate the diff of numbers as 11</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>PENDING</status>
+        </performableScenario>
+      </scenarios>
+      <beforeSteps/>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>16</durationInMillis>
+        <start>1499845887893</start>
+        <end>1499845887909</end>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+    <performableStory>
+      <story>
+        <path>stories/Sum/addNumber.story</path>
+        <description>
+          <descriptionAsString></descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo></inOrderTo>
+          <asA>user</asA>
+          <iWantTo>add two numbers</iWantTo>
+          <soThat>I can achieve a business goal</soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title>stories.Sum two positive numbers</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|num1|num2|res|
+|10  |20  |30|
+|45  |10  |55|
+|9   |91  |100|</tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>num1</string>
+                <string>num2</string>
+                <string>res</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>num1</string>
+                    <string>10</string>
+                  </entry>
+                  <entry>
+                    <string>num2</string>
+                    <string>20</string>
+                  </entry>
+                  <entry>
+                    <string>res</string>
+                    <string>30</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>num1</string>
+                    <string>45</string>
+                  </entry>
+                  <entry>
+                    <string>num2</string>
+                    <string>10</string>
+                  </entry>
+                  <entry>
+                    <string>res</string>
+                    <string>55</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>num1</string>
+                    <string>9</string>
+                  </entry>
+                  <entry>
+                    <string>num2</string>
+                    <string>91</string>
+                  </entry>
+                  <entry>
+                    <string>res</string>
+                    <string>100</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</string>
+              <string>When I add the numbers</string>
+              <string>Then I validate the sum of numbers as &lt;res&gt;</string>
+            </steps>
+          </scenario>
+          <scenario>
+            <title>stories.Sum two negative numbers</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given User is being provided two numbers as -9 and -12</string>
+              <string>When User adds the given numbers</string>
+              <string>Then I validate the sum of numbers as -21</string>
+            </steps>
+          </scenario>
+        </scenarios>
+        <name>addNumber.story</name>
+      </story>
+      <localizedNarrative>As a user
+I want to add two numbers
+So that I can achieve a business goal</localizedNarrative>
+      <allowed>true</allowed>
+      <status>PENDING</status>
+      <givenStories/>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <title>stories.Sum two positive numbers</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|num1|num2|res|
+|10  |20  |30|
+|45  |10  |55|
+|9   |91  |100|</tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>num1</string>
+                <string>num2</string>
+                <string>res</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>num1</string>
+                    <string>10</string>
+                  </entry>
+                  <entry>
+                    <string>num2</string>
+                    <string>20</string>
+                  </entry>
+                  <entry>
+                    <string>res</string>
+                    <string>30</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>num1</string>
+                    <string>45</string>
+                  </entry>
+                  <entry>
+                    <string>num2</string>
+                    <string>10</string>
+                  </entry>
+                  <entry>
+                    <string>res</string>
+                    <string>55</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>num1</string>
+                    <string>9</string>
+                  </entry>
+                  <entry>
+                    <string>num2</string>
+                    <string>91</string>
+                  </entry>
+                  <entry>
+                    <string>res</string>
+                    <string>100</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</string>
+              <string>When I add the numbers</string>
+              <string>Then I validate the sum of numbers as &lt;res&gt;</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/Sum/addNumber.story</storyPath>
+          <allowed>true</allowed>
+          <examplePerformableScenarios>
+            <examplePerformableScenario>
+              <parameters class="linked-hash-map">
+                <entry>
+                  <string>num1</string>
+                  <string>10</string>
+                </entry>
+                <entry>
+                  <string>num2</string>
+                  <string>20</string>
+                </entry>
+                <entry>
+                  <string>res</string>
+                  <string>30</string>
+                </entry>
+              </parameters>
+              <givenStories/>
+              <beforeSteps>
+                <matches/>
+              </beforeSteps>
+              <steps>
+                <matches>
+                  <stepMatch>
+                    <type>WHEN</type>
+                    <annotatedPattern>I add the numbers</annotatedPattern>
+                    <resolvedPattern>I\s+add\s+the\s+numbers</resolvedPattern>
+                  </stepMatch>
+                </matches>
+                <results>
+                  <pending>
+                    <step>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</step>
+                    <type>PENDING</type>
+                    <throwable class="org.jbehave.core.failures.PendingStepFound">
+                      <detailMessage>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</detailMessage>
+                      <stackTrace>
+                        <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                        <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                      <uuid>c514ab09-8c28-4337-8001-30bd6295bdcb</uuid>
+                    </throwable>
+                    <durationInMillis>0</durationInMillis>
+                    <start>0</start>
+                    <end>0</end>
+                  </pending>
+                  <notPerformed>
+                    <step>When I add the numbers</step>
+                    <type>NOT_PERFORMED</type>
+                    <parametrisedStep>When I add the numbers</parametrisedStep>
+                    <durationInMillis>0</durationInMillis>
+                    <start>0</start>
+                    <end>0</end>
+                  </notPerformed>
+                  <pending>
+                    <step>Then I validate the sum of numbers as &lt;res&gt;</step>
+                    <type>PENDING</type>
+                    <throwable class="org.jbehave.core.failures.PendingStepFound">
+                      <detailMessage>Then I validate the sum of numbers as &lt;res&gt;</detailMessage>
+                      <stackTrace>
+                        <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                        <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                      <uuid>24331c92-0393-41e3-80cb-205cf33865ff</uuid>
+                    </throwable>
+                    <durationInMillis>0</durationInMillis>
+                    <start>0</start>
+                    <end>0</end>
+                  </pending>
+                </results>
+              </steps>
+              <afterSteps>
+                <matches/>
+              </afterSteps>
+              <storyAndScenarioMeta>
+                <properties/>
+              </storyAndScenarioMeta>
+              <scenario>
+                <title>stories.Sum two positive numbers</title>
+                <meta>
+                  <properties/>
+                </meta>
+                <givenStories>
+                  <givenStories/>
+                  <givenStoriesAsString></givenStoriesAsString>
+                  <examplesTable>
+                    <tableAsString></tableAsString>
+                    <tableTransformers>
+                      <transformers>
+                        <entry>
+                          <string>FORMATTING</string>
+                          <formatting/>
+                        </entry>
+                        <entry>
+                          <string>REPLACING</string>
+                          <replacing/>
+                        </entry>
+                        <entry>
+                          <string>FROM_LANDSCAPE</string>
+                          <fromLandscape/>
+                        </entry>
+                      </transformers>
+                    </tableTransformers>
+                    <headers/>
+                    <data/>
+                    <properties>
+                      <properties>
+                        <property name="headerSeparator" value="|"/>
+                        <property name="valueSeparator" value="|"/>
+                        <property name="ignorableSeparator" value="|--"/>
+                      </properties>
+                    </properties>
+                    <propertiesAsString></propertiesAsString>
+                    <namedParameters/>
+                  </examplesTable>
+                </givenStories>
+                <examplesTable>
+                  <tableAsString>|num1|num2|res|
+|10  |20  |30|
+|45  |10  |55|
+|9   |91  |100|</tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers>
+                    <string>num1</string>
+                    <string>num2</string>
+                    <string>res</string>
+                  </headers>
+                  <data>
+                    <linked-hash-map>
+                      <entry>
+                        <string>num1</string>
+                        <string>10</string>
+                      </entry>
+                      <entry>
+                        <string>num2</string>
+                        <string>20</string>
+                      </entry>
+                      <entry>
+                        <string>res</string>
+                        <string>30</string>
+                      </entry>
+                    </linked-hash-map>
+                    <linked-hash-map>
+                      <entry>
+                        <string>num1</string>
+                        <string>45</string>
+                      </entry>
+                      <entry>
+                        <string>num2</string>
+                        <string>10</string>
+                      </entry>
+                      <entry>
+                        <string>res</string>
+                        <string>55</string>
+                      </entry>
+                    </linked-hash-map>
+                    <linked-hash-map>
+                      <entry>
+                        <string>num1</string>
+                        <string>9</string>
+                      </entry>
+                      <entry>
+                        <string>num2</string>
+                        <string>91</string>
+                      </entry>
+                      <entry>
+                        <string>res</string>
+                        <string>100</string>
+                      </entry>
+                    </linked-hash-map>
+                  </data>
+                  <properties>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+                <steps>
+                  <string>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</string>
+                  <string>When I add the numbers</string>
+                  <string>Then I validate the sum of numbers as &lt;res&gt;</string>
+                </steps>
+              </scenario>
+            </examplePerformableScenario>
+            <examplePerformableScenario>
+              <parameters class="linked-hash-map">
+                <entry>
+                  <string>num1</string>
+                  <string>45</string>
+                </entry>
+                <entry>
+                  <string>num2</string>
+                  <string>10</string>
+                </entry>
+                <entry>
+                  <string>res</string>
+                  <string>55</string>
+                </entry>
+              </parameters>
+              <givenStories/>
+              <beforeSteps>
+                <matches/>
+              </beforeSteps>
+              <steps>
+                <matches>
+                  <stepMatch>
+                    <type>WHEN</type>
+                    <annotatedPattern>I add the numbers</annotatedPattern>
+                    <resolvedPattern>I\s+add\s+the\s+numbers</resolvedPattern>
+                  </stepMatch>
+                </matches>
+                <results>
+                  <pending>
+                    <step>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</step>
+                    <type>PENDING</type>
+                    <throwable class="org.jbehave.core.failures.PendingStepFound">
+                      <detailMessage>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</detailMessage>
+                      <stackTrace>
+                        <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                        <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                      <uuid>7c4af078-60da-4775-9494-f6dd1f4c3ae7</uuid>
+                    </throwable>
+                    <durationInMillis>0</durationInMillis>
+                    <start>0</start>
+                    <end>0</end>
+                  </pending>
+                  <notPerformed>
+                    <step>When I add the numbers</step>
+                    <type>NOT_PERFORMED</type>
+                    <parametrisedStep>When I add the numbers</parametrisedStep>
+                    <durationInMillis>0</durationInMillis>
+                    <start>0</start>
+                    <end>0</end>
+                  </notPerformed>
+                  <pending>
+                    <step>Then I validate the sum of numbers as &lt;res&gt;</step>
+                    <type>PENDING</type>
+                    <throwable class="org.jbehave.core.failures.PendingStepFound">
+                      <detailMessage>Then I validate the sum of numbers as &lt;res&gt;</detailMessage>
+                      <stackTrace>
+                        <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                        <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                      <uuid>ae48fb88-a5cf-47c4-b331-f891c5a9cba4</uuid>
+                    </throwable>
+                    <durationInMillis>0</durationInMillis>
+                    <start>0</start>
+                    <end>0</end>
+                  </pending>
+                </results>
+              </steps>
+              <afterSteps>
+                <matches/>
+              </afterSteps>
+              <storyAndScenarioMeta>
+                <properties/>
+              </storyAndScenarioMeta>
+              <scenario>
+                <title>stories.Sum two positive numbers</title>
+                <meta>
+                  <properties/>
+                </meta>
+                <givenStories>
+                  <givenStories/>
+                  <givenStoriesAsString></givenStoriesAsString>
+                  <examplesTable>
+                    <tableAsString></tableAsString>
+                    <tableTransformers>
+                      <transformers>
+                        <entry>
+                          <string>FORMATTING</string>
+                          <formatting/>
+                        </entry>
+                        <entry>
+                          <string>REPLACING</string>
+                          <replacing/>
+                        </entry>
+                        <entry>
+                          <string>FROM_LANDSCAPE</string>
+                          <fromLandscape/>
+                        </entry>
+                      </transformers>
+                    </tableTransformers>
+                    <headers/>
+                    <data/>
+                    <properties>
+                      <properties>
+                        <property name="headerSeparator" value="|"/>
+                        <property name="valueSeparator" value="|"/>
+                        <property name="ignorableSeparator" value="|--"/>
+                      </properties>
+                    </properties>
+                    <propertiesAsString></propertiesAsString>
+                    <namedParameters/>
+                  </examplesTable>
+                </givenStories>
+                <examplesTable>
+                  <tableAsString>|num1|num2|res|
+|10  |20  |30|
+|45  |10  |55|
+|9   |91  |100|</tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers>
+                    <string>num1</string>
+                    <string>num2</string>
+                    <string>res</string>
+                  </headers>
+                  <data>
+                    <linked-hash-map>
+                      <entry>
+                        <string>num1</string>
+                        <string>10</string>
+                      </entry>
+                      <entry>
+                        <string>num2</string>
+                        <string>20</string>
+                      </entry>
+                      <entry>
+                        <string>res</string>
+                        <string>30</string>
+                      </entry>
+                    </linked-hash-map>
+                    <linked-hash-map>
+                      <entry>
+                        <string>num1</string>
+                        <string>45</string>
+                      </entry>
+                      <entry>
+                        <string>num2</string>
+                        <string>10</string>
+                      </entry>
+                      <entry>
+                        <string>res</string>
+                        <string>55</string>
+                      </entry>
+                    </linked-hash-map>
+                    <linked-hash-map>
+                      <entry>
+                        <string>num1</string>
+                        <string>9</string>
+                      </entry>
+                      <entry>
+                        <string>num2</string>
+                        <string>91</string>
+                      </entry>
+                      <entry>
+                        <string>res</string>
+                        <string>100</string>
+                      </entry>
+                    </linked-hash-map>
+                  </data>
+                  <properties>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+                <steps>
+                  <string>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</string>
+                  <string>When I add the numbers</string>
+                  <string>Then I validate the sum of numbers as &lt;res&gt;</string>
+                </steps>
+              </scenario>
+            </examplePerformableScenario>
+            <examplePerformableScenario>
+              <parameters class="linked-hash-map">
+                <entry>
+                  <string>num1</string>
+                  <string>9</string>
+                </entry>
+                <entry>
+                  <string>num2</string>
+                  <string>91</string>
+                </entry>
+                <entry>
+                  <string>res</string>
+                  <string>100</string>
+                </entry>
+              </parameters>
+              <givenStories/>
+              <beforeSteps>
+                <matches/>
+              </beforeSteps>
+              <steps>
+                <matches>
+                  <stepMatch>
+                    <type>WHEN</type>
+                    <annotatedPattern>I add the numbers</annotatedPattern>
+                    <resolvedPattern>I\s+add\s+the\s+numbers</resolvedPattern>
+                  </stepMatch>
+                </matches>
+                <results>
+                  <pending>
+                    <step>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</step>
+                    <type>PENDING</type>
+                    <throwable class="org.jbehave.core.failures.PendingStepFound">
+                      <detailMessage>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</detailMessage>
+                      <stackTrace>
+                        <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                        <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                      <uuid>2a807996-a6df-4aa4-a69c-13eda5dbfac0</uuid>
+                    </throwable>
+                    <durationInMillis>0</durationInMillis>
+                    <start>0</start>
+                    <end>0</end>
+                  </pending>
+                  <notPerformed>
+                    <step>When I add the numbers</step>
+                    <type>NOT_PERFORMED</type>
+                    <parametrisedStep>When I add the numbers</parametrisedStep>
+                    <durationInMillis>0</durationInMillis>
+                    <start>0</start>
+                    <end>0</end>
+                  </notPerformed>
+                  <pending>
+                    <step>Then I validate the sum of numbers as &lt;res&gt;</step>
+                    <type>PENDING</type>
+                    <throwable class="org.jbehave.core.failures.PendingStepFound">
+                      <detailMessage>Then I validate the sum of numbers as &lt;res&gt;</detailMessage>
+                      <stackTrace>
+                        <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                        <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                      <uuid>34815511-37cf-44c4-a484-e1dc2891f949</uuid>
+                    </throwable>
+                    <durationInMillis>0</durationInMillis>
+                    <start>0</start>
+                    <end>0</end>
+                  </pending>
+                </results>
+              </steps>
+              <afterSteps>
+                <matches/>
+              </afterSteps>
+              <storyAndScenarioMeta>
+                <properties/>
+              </storyAndScenarioMeta>
+              <scenario>
+                <title>stories.Sum two positive numbers</title>
+                <meta>
+                  <properties/>
+                </meta>
+                <givenStories>
+                  <givenStories/>
+                  <givenStoriesAsString></givenStoriesAsString>
+                  <examplesTable>
+                    <tableAsString></tableAsString>
+                    <tableTransformers>
+                      <transformers>
+                        <entry>
+                          <string>FORMATTING</string>
+                          <formatting/>
+                        </entry>
+                        <entry>
+                          <string>REPLACING</string>
+                          <replacing/>
+                        </entry>
+                        <entry>
+                          <string>FROM_LANDSCAPE</string>
+                          <fromLandscape/>
+                        </entry>
+                      </transformers>
+                    </tableTransformers>
+                    <headers/>
+                    <data/>
+                    <properties>
+                      <properties>
+                        <property name="headerSeparator" value="|"/>
+                        <property name="valueSeparator" value="|"/>
+                        <property name="ignorableSeparator" value="|--"/>
+                      </properties>
+                    </properties>
+                    <propertiesAsString></propertiesAsString>
+                    <namedParameters/>
+                  </examplesTable>
+                </givenStories>
+                <examplesTable>
+                  <tableAsString>|num1|num2|res|
+|10  |20  |30|
+|45  |10  |55|
+|9   |91  |100|</tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers>
+                    <string>num1</string>
+                    <string>num2</string>
+                    <string>res</string>
+                  </headers>
+                  <data>
+                    <linked-hash-map>
+                      <entry>
+                        <string>num1</string>
+                        <string>10</string>
+                      </entry>
+                      <entry>
+                        <string>num2</string>
+                        <string>20</string>
+                      </entry>
+                      <entry>
+                        <string>res</string>
+                        <string>30</string>
+                      </entry>
+                    </linked-hash-map>
+                    <linked-hash-map>
+                      <entry>
+                        <string>num1</string>
+                        <string>45</string>
+                      </entry>
+                      <entry>
+                        <string>num2</string>
+                        <string>10</string>
+                      </entry>
+                      <entry>
+                        <string>res</string>
+                        <string>55</string>
+                      </entry>
+                    </linked-hash-map>
+                    <linked-hash-map>
+                      <entry>
+                        <string>num1</string>
+                        <string>9</string>
+                      </entry>
+                      <entry>
+                        <string>num2</string>
+                        <string>91</string>
+                      </entry>
+                      <entry>
+                        <string>res</string>
+                        <string>100</string>
+                      </entry>
+                    </linked-hash-map>
+                  </data>
+                  <properties>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+                <steps>
+                  <string>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</string>
+                  <string>When I add the numbers</string>
+                  <string>Then I validate the sum of numbers as &lt;res&gt;</string>
+                </steps>
+              </scenario>
+            </examplePerformableScenario>
+          </examplePerformableScenarios>
+          <status>PENDING</status>
+        </performableScenario>
+        <performableScenario>
+          <scenario>
+            <title>stories.Sum two negative numbers</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given User is being provided two numbers as -9 and -12</string>
+              <string>When User adds the given numbers</string>
+              <string>Then I validate the sum of numbers as -21</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/Sum/addNumber.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches>
+                <stepMatch>
+                  <type>WHEN</type>
+                  <annotatedPattern>User adds the given numbers</annotatedPattern>
+                  <resolvedPattern>User\s+adds\s+the\s+given\s+numbers</resolvedPattern>
+                </stepMatch>
+              </matches>
+              <results>
+                <pending>
+                  <step>Given User is being provided two numbers as -9 and -12</step>
+                  <type>PENDING</type>
+                  <throwable class="org.jbehave.core.failures.PendingStepFound">
+                    <detailMessage>Given User is being provided two numbers as -9 and -12</detailMessage>
+                    <stackTrace>
+                      <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                      <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                      <trace>org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <uuid>66e99f74-bf6c-43dd-9f40-9e3395e6bfa0</uuid>
+                  </throwable>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </pending>
+                <notPerformed>
+                  <step>When User adds the given numbers</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>When User adds the given numbers</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <pending>
+                  <step>Then I validate the sum of numbers as -21</step>
+                  <type>PENDING</type>
+                  <throwable class="org.jbehave.core.failures.PendingStepFound">
+                    <detailMessage>Then I validate the sum of numbers as -21</detailMessage>
+                    <stackTrace>
+                      <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                      <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                      <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <uuid>c0295600-fd00-449e-af29-39432fa57ad0</uuid>
+                  </throwable>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </pending>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>stories.Sum two negative numbers</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+              <steps>
+                <string>Given User is being provided two numbers as -9 and -12</string>
+                <string>When User adds the given numbers</string>
+                <string>Then I validate the sum of numbers as -21</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>PENDING</status>
+        </performableScenario>
+      </scenarios>
+      <beforeSteps/>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>10</durationInMillis>
+        <start>1499845887950</start>
+        <end>1499845887960</end>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+  </stories>
+  <scenarios>
+    <performableScenario>
+      <scenario>
+        <title>stories.Sum two numbers</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given two numbers as 10 and 21</string>
+          <string>When I subtract the numbers</string>
+          <string>Then I validate the diff of numbers as 11</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/Diff/subtractNumber.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>I subtract the numbers</annotatedPattern>
+              <resolvedPattern>I\s+subtract\s+the\s+numbers</resolvedPattern>
+            </stepMatch>
+          </matches>
+          <results>
+            <pending>
+              <step>Given two numbers as 10 and 21</step>
+              <type>PENDING</type>
+              <throwable class="org.jbehave.core.failures.PendingStepFound">
+                <detailMessage>Given two numbers as 10 and 21</detailMessage>
+                <stackTrace>
+                  <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                  <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                  <trace>org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                </stackTrace>
+                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                  <c class="list"/>
+                  <list/>
+                </suppressedExceptions>
+                <uuid>e1ddacc5-bb09-42d8-b1ca-1bfb2d144c2c</uuid>
+              </throwable>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </pending>
+            <notPerformed>
+              <step>When I subtract the numbers</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>When I subtract the numbers</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <pending>
+              <step>Then I validate the diff of numbers as 11</step>
+              <type>PENDING</type>
+              <throwable class="org.jbehave.core.failures.PendingStepFound">
+                <detailMessage>Then I validate the diff of numbers as 11</detailMessage>
+                <stackTrace>
+                  <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                  <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                  <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                </stackTrace>
+                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                  <c class="list"/>
+                  <list/>
+                </suppressedExceptions>
+                <uuid>a290b17b-858d-4d28-8e43-67876ab94c63</uuid>
+              </throwable>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </pending>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>stories.Sum two numbers</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps>
+            <string>Given two numbers as 10 and 21</string>
+            <string>When I subtract the numbers</string>
+            <string>Then I validate the diff of numbers as 11</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>PENDING</status>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <title>stories.Sum two positive numbers</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString>|num1|num2|res|
+|10  |20  |30|
+|45  |10  |55|
+|9   |91  |100|</tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers>
+            <string>num1</string>
+            <string>num2</string>
+            <string>res</string>
+          </headers>
+          <data>
+            <linked-hash-map>
+              <entry>
+                <string>num1</string>
+                <string>10</string>
+              </entry>
+              <entry>
+                <string>num2</string>
+                <string>20</string>
+              </entry>
+              <entry>
+                <string>res</string>
+                <string>30</string>
+              </entry>
+            </linked-hash-map>
+            <linked-hash-map>
+              <entry>
+                <string>num1</string>
+                <string>45</string>
+              </entry>
+              <entry>
+                <string>num2</string>
+                <string>10</string>
+              </entry>
+              <entry>
+                <string>res</string>
+                <string>55</string>
+              </entry>
+            </linked-hash-map>
+            <linked-hash-map>
+              <entry>
+                <string>num1</string>
+                <string>9</string>
+              </entry>
+              <entry>
+                <string>num2</string>
+                <string>91</string>
+              </entry>
+              <entry>
+                <string>res</string>
+                <string>100</string>
+              </entry>
+            </linked-hash-map>
+          </data>
+          <properties>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</string>
+          <string>When I add the numbers</string>
+          <string>Then I validate the sum of numbers as &lt;res&gt;</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/Sum/addNumber.story</storyPath>
+      <allowed>true</allowed>
+      <examplePerformableScenarios>
+        <examplePerformableScenario>
+          <parameters class="linked-hash-map">
+            <entry>
+              <string>num1</string>
+              <string>10</string>
+            </entry>
+            <entry>
+              <string>num2</string>
+              <string>20</string>
+            </entry>
+            <entry>
+              <string>res</string>
+              <string>30</string>
+            </entry>
+          </parameters>
+          <givenStories/>
+          <beforeSteps>
+            <matches/>
+          </beforeSteps>
+          <steps>
+            <matches>
+              <stepMatch>
+                <type>WHEN</type>
+                <annotatedPattern>I add the numbers</annotatedPattern>
+                <resolvedPattern>I\s+add\s+the\s+numbers</resolvedPattern>
+              </stepMatch>
+            </matches>
+            <results>
+              <pending>
+                <step>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</step>
+                <type>PENDING</type>
+                <throwable class="org.jbehave.core.failures.PendingStepFound">
+                  <detailMessage>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</detailMessage>
+                  <stackTrace>
+                    <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                    <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                    <c class="list"/>
+                    <list/>
+                  </suppressedExceptions>
+                  <uuid>c514ab09-8c28-4337-8001-30bd6295bdcb</uuid>
+                </throwable>
+                <durationInMillis>0</durationInMillis>
+                <start>0</start>
+                <end>0</end>
+              </pending>
+              <notPerformed>
+                <step>When I add the numbers</step>
+                <type>NOT_PERFORMED</type>
+                <parametrisedStep>When I add the numbers</parametrisedStep>
+                <durationInMillis>0</durationInMillis>
+                <start>0</start>
+                <end>0</end>
+              </notPerformed>
+              <pending>
+                <step>Then I validate the sum of numbers as &lt;res&gt;</step>
+                <type>PENDING</type>
+                <throwable class="org.jbehave.core.failures.PendingStepFound">
+                  <detailMessage>Then I validate the sum of numbers as &lt;res&gt;</detailMessage>
+                  <stackTrace>
+                    <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                    <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                    <c class="list"/>
+                    <list/>
+                  </suppressedExceptions>
+                  <uuid>24331c92-0393-41e3-80cb-205cf33865ff</uuid>
+                </throwable>
+                <durationInMillis>0</durationInMillis>
+                <start>0</start>
+                <end>0</end>
+              </pending>
+            </results>
+          </steps>
+          <afterSteps>
+            <matches/>
+          </afterSteps>
+          <storyAndScenarioMeta>
+            <properties/>
+          </storyAndScenarioMeta>
+          <scenario>
+            <title>stories.Sum two positive numbers</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|num1|num2|res|
+|10  |20  |30|
+|45  |10  |55|
+|9   |91  |100|</tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>num1</string>
+                <string>num2</string>
+                <string>res</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>num1</string>
+                    <string>10</string>
+                  </entry>
+                  <entry>
+                    <string>num2</string>
+                    <string>20</string>
+                  </entry>
+                  <entry>
+                    <string>res</string>
+                    <string>30</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>num1</string>
+                    <string>45</string>
+                  </entry>
+                  <entry>
+                    <string>num2</string>
+                    <string>10</string>
+                  </entry>
+                  <entry>
+                    <string>res</string>
+                    <string>55</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>num1</string>
+                    <string>9</string>
+                  </entry>
+                  <entry>
+                    <string>num2</string>
+                    <string>91</string>
+                  </entry>
+                  <entry>
+                    <string>res</string>
+                    <string>100</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</string>
+              <string>When I add the numbers</string>
+              <string>Then I validate the sum of numbers as &lt;res&gt;</string>
+            </steps>
+          </scenario>
+        </examplePerformableScenario>
+        <examplePerformableScenario>
+          <parameters class="linked-hash-map">
+            <entry>
+              <string>num1</string>
+              <string>45</string>
+            </entry>
+            <entry>
+              <string>num2</string>
+              <string>10</string>
+            </entry>
+            <entry>
+              <string>res</string>
+              <string>55</string>
+            </entry>
+          </parameters>
+          <givenStories/>
+          <beforeSteps>
+            <matches/>
+          </beforeSteps>
+          <steps>
+            <matches>
+              <stepMatch>
+                <type>WHEN</type>
+                <annotatedPattern>I add the numbers</annotatedPattern>
+                <resolvedPattern>I\s+add\s+the\s+numbers</resolvedPattern>
+              </stepMatch>
+            </matches>
+            <results>
+              <pending>
+                <step>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</step>
+                <type>PENDING</type>
+                <throwable class="org.jbehave.core.failures.PendingStepFound">
+                  <detailMessage>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</detailMessage>
+                  <stackTrace>
+                    <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                    <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                    <c class="list"/>
+                    <list/>
+                  </suppressedExceptions>
+                  <uuid>7c4af078-60da-4775-9494-f6dd1f4c3ae7</uuid>
+                </throwable>
+                <durationInMillis>0</durationInMillis>
+                <start>0</start>
+                <end>0</end>
+              </pending>
+              <notPerformed>
+                <step>When I add the numbers</step>
+                <type>NOT_PERFORMED</type>
+                <parametrisedStep>When I add the numbers</parametrisedStep>
+                <durationInMillis>0</durationInMillis>
+                <start>0</start>
+                <end>0</end>
+              </notPerformed>
+              <pending>
+                <step>Then I validate the sum of numbers as &lt;res&gt;</step>
+                <type>PENDING</type>
+                <throwable class="org.jbehave.core.failures.PendingStepFound">
+                  <detailMessage>Then I validate the sum of numbers as &lt;res&gt;</detailMessage>
+                  <stackTrace>
+                    <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                    <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                    <c class="list"/>
+                    <list/>
+                  </suppressedExceptions>
+                  <uuid>ae48fb88-a5cf-47c4-b331-f891c5a9cba4</uuid>
+                </throwable>
+                <durationInMillis>0</durationInMillis>
+                <start>0</start>
+                <end>0</end>
+              </pending>
+            </results>
+          </steps>
+          <afterSteps>
+            <matches/>
+          </afterSteps>
+          <storyAndScenarioMeta>
+            <properties/>
+          </storyAndScenarioMeta>
+          <scenario>
+            <title>stories.Sum two positive numbers</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|num1|num2|res|
+|10  |20  |30|
+|45  |10  |55|
+|9   |91  |100|</tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>num1</string>
+                <string>num2</string>
+                <string>res</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>num1</string>
+                    <string>10</string>
+                  </entry>
+                  <entry>
+                    <string>num2</string>
+                    <string>20</string>
+                  </entry>
+                  <entry>
+                    <string>res</string>
+                    <string>30</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>num1</string>
+                    <string>45</string>
+                  </entry>
+                  <entry>
+                    <string>num2</string>
+                    <string>10</string>
+                  </entry>
+                  <entry>
+                    <string>res</string>
+                    <string>55</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>num1</string>
+                    <string>9</string>
+                  </entry>
+                  <entry>
+                    <string>num2</string>
+                    <string>91</string>
+                  </entry>
+                  <entry>
+                    <string>res</string>
+                    <string>100</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</string>
+              <string>When I add the numbers</string>
+              <string>Then I validate the sum of numbers as &lt;res&gt;</string>
+            </steps>
+          </scenario>
+        </examplePerformableScenario>
+        <examplePerformableScenario>
+          <parameters class="linked-hash-map">
+            <entry>
+              <string>num1</string>
+              <string>9</string>
+            </entry>
+            <entry>
+              <string>num2</string>
+              <string>91</string>
+            </entry>
+            <entry>
+              <string>res</string>
+              <string>100</string>
+            </entry>
+          </parameters>
+          <givenStories/>
+          <beforeSteps>
+            <matches/>
+          </beforeSteps>
+          <steps>
+            <matches>
+              <stepMatch>
+                <type>WHEN</type>
+                <annotatedPattern>I add the numbers</annotatedPattern>
+                <resolvedPattern>I\s+add\s+the\s+numbers</resolvedPattern>
+              </stepMatch>
+            </matches>
+            <results>
+              <pending>
+                <step>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</step>
+                <type>PENDING</type>
+                <throwable class="org.jbehave.core.failures.PendingStepFound">
+                  <detailMessage>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</detailMessage>
+                  <stackTrace>
+                    <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                    <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                    <c class="list"/>
+                    <list/>
+                  </suppressedExceptions>
+                  <uuid>2a807996-a6df-4aa4-a69c-13eda5dbfac0</uuid>
+                </throwable>
+                <durationInMillis>0</durationInMillis>
+                <start>0</start>
+                <end>0</end>
+              </pending>
+              <notPerformed>
+                <step>When I add the numbers</step>
+                <type>NOT_PERFORMED</type>
+                <parametrisedStep>When I add the numbers</parametrisedStep>
+                <durationInMillis>0</durationInMillis>
+                <start>0</start>
+                <end>0</end>
+              </notPerformed>
+              <pending>
+                <step>Then I validate the sum of numbers as &lt;res&gt;</step>
+                <type>PENDING</type>
+                <throwable class="org.jbehave.core.failures.PendingStepFound">
+                  <detailMessage>Then I validate the sum of numbers as &lt;res&gt;</detailMessage>
+                  <stackTrace>
+                    <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                    <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1029)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:899)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                    <c class="list"/>
+                    <list/>
+                  </suppressedExceptions>
+                  <uuid>34815511-37cf-44c4-a484-e1dc2891f949</uuid>
+                </throwable>
+                <durationInMillis>0</durationInMillis>
+                <start>0</start>
+                <end>0</end>
+              </pending>
+            </results>
+          </steps>
+          <afterSteps>
+            <matches/>
+          </afterSteps>
+          <storyAndScenarioMeta>
+            <properties/>
+          </storyAndScenarioMeta>
+          <scenario>
+            <title>stories.Sum two positive numbers</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>|num1|num2|res|
+|10  |20  |30|
+|45  |10  |55|
+|9   |91  |100|</tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string>num1</string>
+                <string>num2</string>
+                <string>res</string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string>num1</string>
+                    <string>10</string>
+                  </entry>
+                  <entry>
+                    <string>num2</string>
+                    <string>20</string>
+                  </entry>
+                  <entry>
+                    <string>res</string>
+                    <string>30</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>num1</string>
+                    <string>45</string>
+                  </entry>
+                  <entry>
+                    <string>num2</string>
+                    <string>10</string>
+                  </entry>
+                  <entry>
+                    <string>res</string>
+                    <string>55</string>
+                  </entry>
+                </linked-hash-map>
+                <linked-hash-map>
+                  <entry>
+                    <string>num1</string>
+                    <string>9</string>
+                  </entry>
+                  <entry>
+                    <string>num2</string>
+                    <string>91</string>
+                  </entry>
+                  <entry>
+                    <string>res</string>
+                    <string>100</string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+            <steps>
+              <string>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</string>
+              <string>When I add the numbers</string>
+              <string>Then I validate the sum of numbers as &lt;res&gt;</string>
+            </steps>
+          </scenario>
+        </examplePerformableScenario>
+      </examplePerformableScenarios>
+      <status>PENDING</status>
+    </performableScenario>
+    <performableScenario>
+      <scenario>
+        <title>stories.Sum two negative numbers</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+        </examplesTable>
+        <steps>
+          <string>Given User is being provided two numbers as -9 and -12</string>
+          <string>When User adds the given numbers</string>
+          <string>Then I validate the sum of numbers as -21</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/Sum/addNumber.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches>
+            <stepMatch>
+              <type>WHEN</type>
+              <annotatedPattern>User adds the given numbers</annotatedPattern>
+              <resolvedPattern>User\s+adds\s+the\s+given\s+numbers</resolvedPattern>
+            </stepMatch>
+          </matches>
+          <results>
+            <pending>
+              <step>Given User is being provided two numbers as -9 and -12</step>
+              <type>PENDING</type>
+              <throwable class="org.jbehave.core.failures.PendingStepFound">
+                <detailMessage>Given User is being provided two numbers as -9 and -12</detailMessage>
+                <stackTrace>
+                  <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                  <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                  <trace>org.jbehave.core.steps.StepCreator$PendingStep.perform(StepCreator.java:873)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                </stackTrace>
+                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                  <c class="list"/>
+                  <list/>
+                </suppressedExceptions>
+                <uuid>66e99f74-bf6c-43dd-9f40-9e3395e6bfa0</uuid>
+              </throwable>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </pending>
+            <notPerformed>
+              <step>When User adds the given numbers</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>When User adds the given numbers</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <pending>
+              <step>Then I validate the sum of numbers as -21</step>
+              <type>PENDING</type>
+              <throwable class="org.jbehave.core.failures.PendingStepFound">
+                <detailMessage>Then I validate the sum of numbers as -21</detailMessage>
+                <stackTrace>
+                  <trace>org.jbehave.core.steps.AbstractStepResult$Pending.&lt;init&gt;(AbstractStepResult.java:58)</trace>
+                  <trace>org.jbehave.core.steps.AbstractStepResult.pending(AbstractStepResult.java:192)</trace>
+                  <trace>org.jbehave.core.steps.StepCreator$PendingStep.doNotPerform(StepCreator.java:877)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$SomethingHappened.run(PerformableTree.java:378)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                </stackTrace>
+                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                  <c class="list"/>
+                  <list/>
+                </suppressedExceptions>
+                <uuid>c0295600-fd00-449e-af29-39432fa57ad0</uuid>
+              </throwable>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </pending>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>stories.Sum two negative numbers</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+          </examplesTable>
+          <steps>
+            <string>Given User is being provided two numbers as -9 and -12</string>
+            <string>When User adds the given numbers</string>
+            <string>Then I validate the sum of numbers as -21</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>PENDING</status>
+    </performableScenario>
+  </scenarios>
+</xref>

@@ -1,0 +1,91 @@
+
+<story path="stories/Sum/addNumber.story" title="">
+<narrative keyword="Narrative:">
+<asA keyword="As a">user</asA>
+<iWantTo keyword="I want to">add two numbers</iWantTo>
+<soThat keyword="So that">I can achieve a business goal</soThat>
+</narrative>
+<scenario keyword="Scenario:" title="stories.Sum two positive numbers">   
+<examples keyword="Examples:">
+<step>Given two numbers as &lt;num1&gt; and &lt;num2&gt;</step>   
+<step>When I add the numbers</step>   
+<step>Then I validate the sum of numbers as &lt;res&gt;</step>   
+<table>
+<headers>
+<header>num1</header>
+<header>num2</header>
+<header>res</header>
+</headers>
+<row>
+<value>10</value>
+<value>20</value>
+<value>30</value>
+</row>
+<row>
+<value>45</value>
+<value>10</value>
+<value>55</value>
+</row>
+<row>
+<value>9</value>
+<value>91</value>
+<value>100</value>
+</row>
+</table>
+</examples>
+<example keyword="Example:">{num1=10, num2=20, res=30}</example>
+<step outcome="pending">
+Given two numbers as &lt;num1&gt; and &lt;num2&gt;
+</step>
+<step outcome="notPerformed">
+When I add the numbers
+</step>
+<step outcome="pending">
+Then I validate the sum of numbers as &lt;res&gt;
+</step>
+<example keyword="Example:">{num1=45, num2=10, res=55}</example>
+<step outcome="pending">
+Given two numbers as &lt;num1&gt; and &lt;num2&gt;
+</step>
+<step outcome="notPerformed">
+When I add the numbers
+</step>
+<step outcome="pending">
+Then I validate the sum of numbers as &lt;res&gt;
+</step>
+<example keyword="Example:">{num1=9, num2=91, res=100}</example>
+<step outcome="pending">
+Given two numbers as &lt;num1&gt; and &lt;num2&gt;
+</step>
+<step outcome="notPerformed">
+When I add the numbers
+</step>
+<step outcome="pending">
+Then I validate the sum of numbers as &lt;res&gt;
+</step>
+</scenario> 
+<scenario keyword="Scenario:" title="stories.Sum two negative numbers">   
+<step outcome="pending">
+Given User is being provided two numbers as -9 and -12
+</step>
+<step outcome="notPerformed">
+When User adds the given numbers
+</step>
+<step outcome="pending">
+Then I validate the sum of numbers as -21
+</step>
+</scenario> 
+<pendingMethod>@Given(&quot;User is being provided two numbers as -9 and -12&quot;)
+@Pending
+public void givenUserIsBeingProvidedTwoNumbersAs9And12() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;I validate the sum of numbers as -21&quot;)
+@Pending
+public void thenIValidateTheSumOfNumbersAs21() {
+  // PENDING
+}
+</pendingMethod>
+</story>
+

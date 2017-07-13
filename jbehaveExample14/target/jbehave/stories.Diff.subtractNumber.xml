@@ -1,0 +1,32 @@
+
+<story path="stories/Diff/subtractNumber.story" title="">
+<narrative keyword="Narrative:">
+<asA keyword="As a">user</asA>
+<iWantTo keyword="I want to">add two numbers</iWantTo>
+<soThat keyword="So that">I can achieve a business goal</soThat>
+</narrative>
+<scenario keyword="Scenario:" title="stories.Sum two numbers">   
+<step outcome="pending">
+Given two numbers as 10 and 21
+</step>
+<step outcome="notPerformed">
+When I subtract the numbers
+</step>
+<step outcome="pending">
+Then I validate the diff of numbers as 11
+</step>
+</scenario> 
+<pendingMethod>@Given(&quot;two numbers as 10 and 21&quot;)
+@Pending
+public void givenTwoNumbersAs10And21() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;I validate the diff of numbers as 11&quot;)
+@Pending
+public void thenIValidateTheDiffOfNumbersAs11() {
+  // PENDING
+}
+</pendingMethod>
+</story>
+

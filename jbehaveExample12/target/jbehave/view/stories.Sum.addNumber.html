@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>stories.Sum.addNumber</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">stories/Sum/addNumber.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">As a</span> user</div>
+<div class="element asA"><span class="keyword asA">I want to</span> add two numbers</div>
+<div class="element iWantTo"><span class="keyword iWantTo">So that</span> I can achieve a business goal</div>
+</div>
+<div class="scenario">
+<h2>Scenario: stories.Sum two positive numbers</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given two numbers as &lt;num1&gt; and &lt;num2&gt;</div>
+<div class="step">When I add the numbers</div>
+<div class="step">Then I validate the sum of numbers as &lt;res&gt;</div>
+<table>
+<thead>
+<tr>
+<th>num1</th><th>num2</th><th>res</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td><td>20</td><td>30</td></tr>
+<tr>
+<td>45</td><td>10</td><td>55</td></tr>
+<tr>
+<td>9</td><td>91</td><td>100</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {num1=10, num2=20, res=30}</h3>
+<div class="step successful">Given two numbers as <span class="step parameter">10</span> and <span class="step parameter">20</span></div>
+<div class="step successful">When I add the numbers</div>
+<div class="step successful">Then I validate the sum of numbers as <span class="step parameter">30</span></div>
+
+<h3 class="example">Example: {num1=45, num2=10, res=55}</h3>
+<div class="step successful">Given two numbers as <span class="step parameter">45</span> and <span class="step parameter">10</span></div>
+<div class="step successful">When I add the numbers</div>
+<div class="step successful">Then I validate the sum of numbers as <span class="step parameter">55</span></div>
+
+<h3 class="example">Example: {num1=9, num2=91, res=100}</h3>
+<div class="step successful">Given two numbers as <span class="step parameter">9</span> and <span class="step parameter">91</span></div>
+<div class="step successful">When I add the numbers</div>
+<div class="step successful">Then I validate the sum of numbers as <span class="step parameter">100</span></div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: stories.Sum two negative numbers</h2>
+<div class="step successful">Given User is being provided two numbers as <span class="step parameter">-9</span> and <span class="step parameter">-12</span></div>
+<div class="step successful">When User adds the given numbers</div>
+<div class="step successful">Then I validate the sum of numbers as <span class="step parameter">-21</span></div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>
