@@ -1,5 +1,7 @@
+package net.jbehave.main;
+
 /**
- * The class MyNumber represent a number, and capable
+ * The class net.jbehave.main.MyNumber represent a number, and capable
  * of performing arithmetic operations.
  */
 public class MyNumber {

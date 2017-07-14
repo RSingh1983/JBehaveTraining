@@ -1,4 +1,4 @@
-package net.serenitybdd.demo;
+package net.serenity.bdd;
 
 import net.serenitybdd.jbehave.SerenityStories;
 

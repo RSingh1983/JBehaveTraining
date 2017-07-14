@@ -7,7 +7,9 @@ So that I can achieve a business goal
 
 Lifecycle:
 Before:
-    Given I execute the step before every scenario
+
+
+
 After:
     Given I execute the step after every scenario
 

@@ -1,5 +1,9 @@
+package net.serenity.bdd;
+
+import net.jbehave.main.MyNumber;
 import org.jbehave.core.annotations.*;
 import org.junit.Assert;
+
 
 /**
  * Created by ravindersingh on 7/9/17.
